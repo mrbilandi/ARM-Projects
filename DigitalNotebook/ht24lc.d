@@ -1,0 +1,11 @@
+ht24lc.o: HT24LC\HT24LC.c
+ht24lc.o: HT24LC\HT24LC.h
+ht24lc.o: HT24LC\..\driver\lpc17xx_i2c.h
+ht24lc.o: F:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+ht24lc.o: F:\Keil\ARM\CMSIS\Include\core_cm3.h
+ht24lc.o: F:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+ht24lc.o: F:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+ht24lc.o: F:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+ht24lc.o: F:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+ht24lc.o: HT24LC\..\driver\lpc_types.h
+ht24lc.o: HT24LC\..\driver\lpc17xx_pinsel.h

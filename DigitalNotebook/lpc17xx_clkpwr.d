@@ -1,0 +1,9 @@
+lpc17xx_clkpwr.o: driver\lpc17xx_clkpwr.c
+lpc17xx_clkpwr.o: driver\lpc17xx_clkpwr.h
+lpc17xx_clkpwr.o: F:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+lpc17xx_clkpwr.o: F:\Keil\ARM\CMSIS\Include\core_cm3.h
+lpc17xx_clkpwr.o: F:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+lpc17xx_clkpwr.o: F:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+lpc17xx_clkpwr.o: F:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+lpc17xx_clkpwr.o: F:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+lpc17xx_clkpwr.o: driver\lpc_types.h

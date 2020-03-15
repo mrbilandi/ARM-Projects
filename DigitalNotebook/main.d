@@ -1,0 +1,15 @@
+main.o: main.c
+main.o: TFTLCD\GLCD.h
+main.o: TouchPanel\TouchPanel.h
+main.o: F:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+main.o: F:\Keil\ARM\CMSIS\Include\core_cm3.h
+main.o: F:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+main.o: F:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+main.o: F:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+main.o: F:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+main.o: HT24LC\HT24LC.h
+main.o: HT24LC\..\driver\lpc17xx_i2c.h
+main.o: HT24LC\..\driver\lpc_types.h
+main.o: HT24LC\..\driver\lpc17xx_pinsel.h
+main.o: DELAY\delay.h
+main.o: F:\Keil\ARM\ARMCC\bin\..\include\stdio.h

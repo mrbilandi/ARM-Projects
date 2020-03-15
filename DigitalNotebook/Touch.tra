@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'Touch.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"glcd_spi_lpc1700.o"'
+### List of Objects: adding '"touchpanel.o"'
+### List of Objects: adding '"ht24lc.o"'
+### List of Objects: adding '"lpc17xx_i2c.o"'
+### List of Objects: adding '"lpc17xx_clkpwr.o"'
+### List of Objects: adding '"lpc17xx_pinsel.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "system_lpc17xx.o" "glcd_spi_lpc1700.o" "touchpanel.o" "ht24lc.o" "lpc17xx_i2c.o" "lpc17xx_clkpwr.o" "lpc17xx_pinsel.o" "main.o" 
+--strict --scatter "Touch.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Touch.map" -o Touch.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Touch.axf'
+### ADS-LD Command File: 'Touch.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Touch.lnp', Handle=0x00000314
+### Writing '.lnp' file
+### ADS-LD Command file 'Touch.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

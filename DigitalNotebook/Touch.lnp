@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "system_lpc17xx.o" "glcd_spi_lpc1700.o" "touchpanel.o" "ht24lc.o" "lpc17xx_i2c.o" "lpc17xx_clkpwr.o" "lpc17xx_pinsel.o" "main.o" 
+--strict --scatter "Touch.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Touch.map" -o Touch.axf
