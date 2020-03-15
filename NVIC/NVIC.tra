@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'NVIC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"lpc17xx_exti.o"'
+### List of Objects: adding '"lpc17xx_gpio.o"'
+### List of Objects: adding '"lpc17xx_pinsel.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "system_lpc17xx.o" "lpc17xx_exti.o" "lpc17xx_gpio.o" "lpc17xx_pinsel.o" "main.o" 
+--strict --scatter "NVIC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\NVIC.map" -o NVIC.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'NVIC.axf'
+### ADS-LD Command File: 'NVIC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'NVIC.lnp', Handle=0x000005E4
+### Writing '.lnp' file
+### ADS-LD Command file 'NVIC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

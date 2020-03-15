@@ -1,0 +1,13 @@
+Dependencies for Project 'NVIC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x5087A706)(--cpu Cortex-M3 -g --apcs=interwork -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\NXP\LPC17xx --list "startup_LPC17xx.lst" --xref -o "startup_LPC17xx.o" --depend "startup_LPC17xx.d")
+F (..\..\..\..\CMSIS\lpc175x_6x_cmsis_driver_library\Core\Device\NXP\LPC17xx\Source\Templates\system_LPC17xx.c)(0x52AAE5EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\NXP\LPC17xx -o "system_lpc17xx.o" --omf_browse "system_lpc17xx.crf" --depend "system_lpc17xx.d")
+I (F:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9A098)
+I (F:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x50879922)
+I (F:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50879AC6)
+I (F:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x50879AC6)
+I (F:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x50879AC6)
+I (F:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x50879922)
+F (..\..\..\..\CMSIS\lpc175x_6x_cmsis_driver_library\Drivers\source\lpc17xx_exti.c)(0x4FC00119)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\NXP\LPC17xx -o "lpc17xx_exti.o" --omf_browse "lpc17xx_exti.crf" --depend "lpc17xx_exti.d")
+F (..\..\..\..\CMSIS\lpc175x_6x_cmsis_driver_library\Drivers\source\lpc17xx_gpio.c)(0x4FC00119)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\NXP\LPC17xx -o "lpc17xx_gpio.o" --omf_browse "lpc17xx_gpio.crf" --depend "lpc17xx_gpio.d")
+F (..\..\..\..\CMSIS\lpc175x_6x_cmsis_driver_library\Drivers\source\lpc17xx_pinsel.c)(0x4FC00119)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\NXP\LPC17xx -o "lpc17xx_pinsel.o" --omf_browse "lpc17xx_pinsel.crf" --depend "lpc17xx_pinsel.d")
+F (.\main.c)(0x5298C512)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I F:\Keil\ARM\RV31\INC -I F:\Keil\ARM\CMSIS\Include -I F:\Keil\ARM\Inc\NXP\LPC17xx -o "main.o" --omf_browse "main.crf" --depend "main.d")
