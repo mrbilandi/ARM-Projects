@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "system_lpc17xx.o" "candemo.o" "adc.o" "can.o" "glcd_lpc1700.o" "led.o" 
+--strict --scatter "can.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\can.map" -o can.axf
